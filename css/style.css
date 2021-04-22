@@ -8,3 +8,6 @@ object-fit: cover;
 padding: 23px;
 
 }
+.container{
+flex-direction: row;
+}
