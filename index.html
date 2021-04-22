@@ -5,39 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-    .mySlides {display: none;}
-    </style>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <div id="images"></div>
-
-   
-    <div class="Slideshow">
-        <img class="123" src="/images/saksa-kevad.jpg" style="width: 100%;">
-        <img class="123" src="/images/kevadlaat.jpg"  style="width: 100%;">
-    </div>
+    <div id="images" class="Slideshow"></div>
     
     <script src="config.js"></script>
     <script src="app.js"></script>
-
-    <div>Slideshow</div>
-
-    <script>
-        var myIndex = 0;
-        carousel();
-
-        function carousel(){
-            var i;
-            var x = document.getElementsByClassName("123")
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none"
-            }
-            myIndex++;
-            if (myIndex > x.length) {myIndex = 1}
-            x[myIndex-1].style.display = "block";
-            setTimeout(carousel, 4000);
-        }
-    </script>
 </body>
 </html>
