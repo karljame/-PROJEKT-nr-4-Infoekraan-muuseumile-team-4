@@ -13,7 +13,7 @@ function getinfo(){
         for (element in data.values){
             let imageElement = document.createElement("img")
             imageElement.src = data.values[i][0] 
-            IMAGEDiv.appendChild(imageElement)
+            imageDiv.appendChild(imageElement)
             i = i + 1
         }
       });
