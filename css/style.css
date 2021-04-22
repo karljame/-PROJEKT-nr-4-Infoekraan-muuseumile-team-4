@@ -12,6 +12,23 @@ padding: 23px;
 }
 
 .info-content{
+
+
+
+
+
+
+}
+.info{
     display: flex;
-    flex-direction: row;
+   /*flex-direction: row;
+   width: 15%;*/
+}
+.logo{
+    width: 15%;
+    height: 30%;
+}
+
+.info-content{
+
 }

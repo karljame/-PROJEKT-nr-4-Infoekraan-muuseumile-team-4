@@ -2,7 +2,7 @@
 
 async function getinfo(){
     // config.js vajalik kus on spreadsheetId mis saab spreadsheeti URList ja API key mis saab google develeoperist
-    fetch('https://sheets.googleapis.com/v4/spreadsheets/' + spreadsheetId + '/values/A2:E6/' + '?key=' + key + '&majorDimension=COLUMNS  ')
+    fetch('https://sheets.googleapis.com/v4/spreadsheets/' + spreadsheetId + '/values/A2:F7/' + '?key=' + key + '&majorDimension=COLUMNS  ')
         .then((response) => {
         return response.json()
       })
@@ -35,6 +35,9 @@ async function getinfo(){
         document.getElementById("open_hrs_en").innerHTML = 
         "<h4>" + data.values[4][0] + "</h4>" +
         "<p>" + data.values[4][1] + "</p>"
+
+        document.getElementById("logo").innerHTML =
+        "<img class='LogoImg' src='"+ data.values[5][0] +"'></img>"
        
         var e
         var myIndex = 0;
