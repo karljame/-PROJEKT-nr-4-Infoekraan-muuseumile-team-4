@@ -7,61 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        .mySslides {
-            display: none;
-        }
-    </style>
+
 </head>
 
 <body>
-
-    <div id="images">
-        <img class="posters" src="images/ooperipaevad.jfif" alt="">
+    <div class="posters" id="images">
     </div>
 
     <div class="info">
         <div class="container">
             <div class="logo" id="logo"></div>
             <div class="info-content">
+
                 <div id="contact_et" class="info-element">
-                    <h4>Kontakt</h4>
-                    <p>Tel: +372 455 4463</p>
-                    <p>muuseum@saaremaamuuseum.ee</p>
                 </div>
+
                 <div id="contact_en" class="info-element">
-                    <h4>Contact us</h4>
-                    <p>Tel: +372 455 4463</p>
-                    <p>muuseum@saaremaamuuseum.ee</p>
                 </div>
+
                 <div id="open_hrs_et" class="info-element">
-                    <h4>Lahtiolekuaeg</h4>
-                    <p>T-P 10.00-18.00</p>
                 </div>
+
                 <div id="open_hrs_en" class="info-element">
-                    <h4>Opening hours</h4>
-                    <p>T-P 10.00-18.00</p>
                 </div>
             </div>
             <script src="config.js"></script>
             <script src="app.js"></script>
-            <div>Slideshow</div>
-            <script>
-                var myIndex = 0;
-                carousel();
-
-                function carousel() {
-                    var i;
-                    var x = document.getElementsByClassName("images")
-                    for (i = 0; i < x.length; i++) {
-                        x[i].style.display = "none"
-                    }
-                    myIndex++;
-                    if (myIndex > x.length) { myIndex = 1 }
-                    x[myIndex - 1].style.display = "block";
-                    setTimeout(carousel, 3000);
-                }
-            </script>
 </body>
 
 </html>
