@@ -13,6 +13,7 @@ function getinfo(){
         for (element in data.values[0]){
             let imageElement = document.createElement("img")
             imageElement.src = data.values[0][i] 
+            imageElement.classList.add("mySlides")
             imageDiv.appendChild(imageElement)
             i = i + 1
         }
