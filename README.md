@@ -4,7 +4,9 @@
 ## Figma 
 - [prototüüp](https://www.figma.com/file/lwmkZCyPBPqcQZpWpuYl4O/Untitled?node-id=0%3A1)
 
-install:
+install & edit (ubuntus):
 ```
 git clone https://github.com/karljame/PROJEKT-nr-4-Infoekraan-muuseumile-team-4/
+cd PROJEKT-nr-4-Infoekraan-muuseumile-team-4
+code .
 ```
