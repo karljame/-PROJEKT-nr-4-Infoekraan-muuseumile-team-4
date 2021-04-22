@@ -1,0 +1,10 @@
+body{
+text-align: center;
+}
+.posters{
+width: 100%;
+height: 76.82%;
+object-fit: cover;
+padding: 23px;
+
+}
