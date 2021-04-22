@@ -17,8 +17,25 @@ async function getinfo(){
             imageElement.style.display = "none"
             imageDiv.appendChild(imageElement)
             i = i + 1   
-            
         }
+        document.getElementById("contact_et").innerHTML = 
+        "<h4>" + data.values[1][0] + "</h4>" +
+        "<p>" + data.values[1][1] + "</p>"+
+        "<p>" + data.values[1][2] + "</p>"
+
+        document.getElementById("contact_en").innerHTML = 
+        "<h4>" + data.values[2][0] + "</h4>" +
+        "<p>" + data.values[2][1] + "</p>"+
+        "<p>" + data.values[2][2] + "</p>"
+        
+        document.getElementById("open_hrs_et").innerHTML = 
+        "<h4>" + data.values[3][0] + "</h4>" +
+        "<p>" + data.values[3][1] + "</p>"
+
+        document.getElementById("open_hrs_en").innerHTML = 
+        "<h4>" + data.values[4][0] + "</h4>" +
+        "<p>" + data.values[4][1] + "</p>"
+       
         var e
         var myIndex = 0;
         carousel();
