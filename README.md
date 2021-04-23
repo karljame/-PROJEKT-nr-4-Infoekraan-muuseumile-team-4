@@ -10,3 +10,7 @@ git clone https://github.com/karljame/PROJEKT-nr-4-Infoekraan-muuseumile-team-4/
 cd PROJEKT-nr-4-Infoekraan-muuseumile-team-4
 code .
 ```
+Lehekülje link
+```
+
+ https://karljame.github.io/PROJEKT-nr-4-Infoekraan-muuseumile-team-4/
